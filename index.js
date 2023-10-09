@@ -9,6 +9,7 @@ submit.addEventListener('submit',(e)=>{
     <br>
     <h1>Last Name: </h1>${userKey.value}
     `;
+    console.log("clicked");
 
     Email.send({
         SecureToken : "03be7aa5-9b86-4708-96cf-cdcaf4e42174", //add your token here
